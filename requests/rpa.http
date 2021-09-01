@@ -1,0 +1,20 @@
+@api = http://localhost:3000/doacao
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+
+    "cnpj": "987456123321",
+    "documento": "36985278",
+    "data_hora": "2021-08-31",
+    "valor_doado": 40.2,
+    "forma_pag": "dinheiro"
+}
+
+###
+
+GET {{api}}/8
